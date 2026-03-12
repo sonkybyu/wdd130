@@ -15,6 +15,7 @@ h1 {
 
 main img {
     width: 200px;
+    padding: 1px;
     height: auto;
     border: 1px solid black;
     box-shadow: 0 0 30px gray;
@@ -39,7 +40,7 @@ aside {
 }
 
 aside img {
-    width: 150px;
+    width: 200px;
     height: auto;
 }
 
