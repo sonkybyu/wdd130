@@ -33,8 +33,9 @@ footer {
 h1,
 h2 {
     font-family: var(--heading-font);
-    color: var(--primary-color);
-    background-color: var(--accent2-color);
+    color: var(--accent2-color);
+    text-align: center;
+    /* background-color: var(--accent2-color); */
 }
 
 nav,
@@ -88,5 +89,49 @@ h1 {
 
 footer {
     background-color: var(--primary-color);
+}
 
+.grid {
+    display: grid;
+    grid-template-columns: auto 1fr;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+ul,
+a {
+    display: block;
+    text-decoration: none;
+}
+
+.socialmedia {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.history {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    align-self: center;
+
+}
+
+.history img {
+    width: 250px;
+
+}
+
+.adventure {
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+}
+
+.adventure img {
+    width: 120px;
 }
