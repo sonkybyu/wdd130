@@ -2,7 +2,7 @@
     --primary-color: #f3f9f3;
     --secondary-color: #f4a261;
     --accent1-color: #264653;
-    --accent2-color: #e9c46a;
+    --accent2-color: rgb(53, 53, 123);
     --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
 }
@@ -130,8 +130,71 @@ a {
     display: flex;
     align-items: center;
     column-gap: 30px;
+    align-content: space-around;
+    justify-content: center;
 }
 
 .adventure img {
     width: 120px;
+}
+
+.contact {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 10px;
+}
+
+.contact-form {
+    padding: 10px;
+}
+
+.purpose {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding: 10px;
+    align-items: flex-start;
+}
+
+input,
+textarea {
+    padding: 5px;
+
+}
+
+textarea {
+    width: 400px;
+}
+
+button {
+    width: 400px;
+    background-color: navy;
+    color: #f3f9f3;
+    padding: 6px;
+    border: none;
+    border-radius: .5rem;
+    font-size: 1.2rem;
+}
+
+button:hover {
+    background-color: #252323;
+}
+
+.employee-profile {
+    border: 1px solid black;
+}
+
+.contact-heading {
+    position: relative;
+    top: 20px;
+    width: 100%;
+    padding: 6px;
+    left: 0px;
+    text-align: center;
+    opacity: 0.7;
+    background-color: white;
+    color: var(--accent2-color);
+}
+
+.contact-info {
+    text-align: center;
 }

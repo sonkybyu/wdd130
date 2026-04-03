@@ -123,7 +123,7 @@ a {
 .adventure {
     display: flex;
     align-items: center;
-    column-gap: 100px;
+    column-gap: 30px;
     align-content: space-around;
     justify-content: center;
 }
