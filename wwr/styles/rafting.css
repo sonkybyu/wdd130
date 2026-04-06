@@ -31,7 +31,8 @@ footer {
 }
 
 h1,
-h2 {
+h2,
+h3 {
     font-family: var(--heading-font);
     color: var(--accent2-color);
     text-align: center;
@@ -48,6 +49,10 @@ article {
 
 .socialmedia a {
     text-decoration: none;
+}
+
+.socialmedia a img {
+    width: 40px;
 }
 
 .hero {
@@ -94,6 +99,10 @@ footer {
 .grid {
     display: grid;
     grid-template-columns: auto 1fr;
+}
+
+.grid img {
+    width: 110px;
 }
 
 .flex {
@@ -144,8 +153,13 @@ a {
     margin: 10px;
 }
 
-.contact-form {
+.contact-form-div {
     padding: 10px;
+}
+
+.contact-form {
+    border: 1px solid black;
+    padding: 2px;
 }
 
 .purpose {
@@ -185,7 +199,7 @@ button:hover {
 
 .contact-heading {
     position: relative;
-    top: 20px;
+    top: 2px;
     width: 100%;
     padding: 6px;
     left: 0px;
@@ -197,4 +211,88 @@ button:hover {
 
 .contact-info {
     text-align: center;
+}
+
+.card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+
+.card img {
+    width: 380px;
+}
+
+.form-grid {
+    display: grid;
+    /* margin: 10px;
+    padding: 5px; */
+    /* grid-template-columns: 1fr 1fr; */
+}
+
+.form-input {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 5px;
+}
+
+.adventure-section {
+    /* border: 1px solid black; */
+    background-color: var(--primary-color);
+    padding: 10px;
+}
+
+.cta,
+.newsletter {
+    border: 1px solid navy;
+    border-radius: 10px;
+    padding: 12px 20px;
+}
+
+.cta p a:hover {
+    background: rgb(35, 35, 35);
+    color: rgb(242, 249, 242);
+}
+
+.trips {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    align-self: center;
+    margin: 16px;
+    padding: 8px;
+}
+
+.trip-card img {
+    width: 250px;
+}
+
+.table-section {
+    grid-column: span 2;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #0077b6;
+    color: white;
+}
+
+.table-section {
+    grid-column: span 1;
 }
