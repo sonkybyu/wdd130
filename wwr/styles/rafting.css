@@ -296,3 +296,9 @@ th {
 .table-section {
     grid-column: span 1;
 }
+
+.trip-card,
+p {
+    margin: 0px;
+    padding: 0px;
+}
